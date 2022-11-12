@@ -19,7 +19,7 @@ unsigned int transportujFlota(unsigned int towar)
             Stocznia stocznia{};
             Statek* s1 = stocznia();
             //2. Wywołanie metody transportuj
-            przetransportowany = przetransportowany + s1->transportuj();
+            ilosc_towaru = ilosc_towaru + s1->transportuj();
             //3. Sumowanie łódek
             if (s1 == dynamic_cast<Zaglowiec*>(s1))
             {
