@@ -30,4 +30,5 @@ unsigned int transportujFlota(unsigned int towar)
         }
         //5. Powrót do 1. jeżeli nie został spełniony warunek ilości towaru
     }
+    return ilosc_lodek;
 }
